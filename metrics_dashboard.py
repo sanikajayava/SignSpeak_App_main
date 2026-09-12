@@ -1,5 +1,5 @@
 """
-ESI PROJECT: Efficiency Metrics Dashboard Module
+EIS PROJECT: Efficiency Metrics Dashboard Module
 Adds comprehensive efficiency metrics display to Streamlit app
 
 This module loads and displays efficiency metrics in Streamlit UI:
