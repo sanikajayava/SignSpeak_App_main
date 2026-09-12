@@ -1,8 +1,0 @@
-.git
-.venv
-__pycache__
-*.pyc
-notebooks/
-scripts/
-android_vector.txt
-python_vector.txt
