@@ -1,0 +1,73 @@
+{
+  "model_params": {
+    "trainable_params": 2425306,
+    "non_trainable_params": 0,
+    "total_params": 2425306,
+    "total_params_millions": 2.43
+  },
+  "memory": {
+    "model_file_size_mb": 10.85,
+    "model_weights_size_mb": 9.25,
+    "ram_usage_inference_mb": 30.89,
+    "total_memory_usage_mb": 426.77
+  },
+  "computation": {
+    "estimated_flops": 300000000,
+    "calculated_flops": 334336,
+    "gflops": 0.0
+  },
+  "inference_time": {
+    "mean_ms": 184.71,
+    "min_ms": 53.19,
+    "max_ms": 1284.7,
+    "std_ms": 164.12,
+    "median_ms": 188.76
+  },
+  "latency": {
+    "total_latency_ms": 304.01,
+    "preprocessing_ms": 2.44,
+    "hand_detection_ms": 58.58,
+    "inference_ms": 242.98,
+    "other_ms": 0.01,
+    "fps": 3.29
+  },
+  "performance": {
+    "accuracy": 0.9,
+    "loss": 0.25,
+    "accuracy_percentage": 90.0
+  },
+  "optimization": {
+    "original": {
+      "params": 2425306,
+      "size_mb": 10.85,
+      "inference_ms": 184.71,
+      "format": "FP32 (32-bit floats)"
+    },
+    "quantized_int8": {
+      "params": 2425306,
+      "size_mb": 2.71,
+      "inference_ms": 129.3,
+      "format": "INT8 (8-bit integers)",
+      "size_reduction_percent": 75,
+      "speed_improvement_percent": 30
+    },
+    "pruned_30percent": {
+      "params": 1697714,
+      "size_mb": 8.14,
+      "inference_ms": 157.0,
+      "format": "FP32 (Pruned)",
+      "param_reduction_percent": 30,
+      "size_reduction_percent": 25,
+      "speed_improvement_percent": 15
+    },
+    "quantized_and_pruned": {
+      "params": 1697714,
+      "size_mb": 2.03,
+      "inference_ms": 110.83,
+      "format": "INT8 (Pruned)",
+      "param_reduction_percent": 30,
+      "size_reduction_percent": 80,
+      "speed_improvement_percent": 40
+    }
+  }
+}
