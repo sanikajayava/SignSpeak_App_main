@@ -1,5 +1,5 @@
 # 📊 EFFICIENCY PARAMETERS REPORT
-## ESI Project: Real-Time Sign Language Recognition System
+## EIS Project: Real-Time Sign Language Recognition System
 
 **Date:** 2024  
 **Project:** Sign Language Recognition - Embedded System Intelligence  
