@@ -1,5 +1,5 @@
 # 🎓 EFFICIENCY PARAMETERS - VIVA ANSWERS
-## ESI Project: Sign Language Recognition System
+## EIS Project: Sign Language Recognition System
 
 Quick reference guide for all common viva questions about efficiency parameters.
 
@@ -384,4 +384,3 @@ Total Latency = 7.5 + 35 + 75 + 10 = 127.5 ms ✅
 
 ---
 
-**Good luck with your viva! You've got this! 🎓✅**
