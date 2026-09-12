@@ -1,4 +1,4 @@
-# 📊 ESI PROJECT SUMMARY
+# 📊 EIS PROJECT SUMMARY
 ## Advanced Real-Time Sign Language Recognition System
 
 **Status**: ✅ Complete and Ready for Deployment
@@ -221,38 +221,34 @@
 
 ---
 
-## 🎓 ESI (Embedded System Intelligence) Concepts
+## 🎓 Embedded Intelligence System(EIS) CONCEPTS
 
-### 1. Embedded Input (E)
-**Webcam as Physical Sensor**:
-- Real-time continuous data stream
-- Video frames at 30 FPS
-- Direct embedded device integration
+This project demonstrates the key principles of an **Embedded Intelligence System (EIS)**:
 
-### 2. Intelligent System (S)
-**Machine Learning & Logic**:
-- Deep learning model (transfer learning)
-- Hand detection algorithms
-- Domain-aware filtering logic
-- Decision-making based on physical constraints
+### Embedded Input
+- Webcam acts as the input device
+- Captures continuous real-time visual data
+- Provides input for gesture recognition
 
-### 3. Real-Time Processing (I)
-**Continuous, Low-Latency Operations**:
-- Processing at camera frame rate
-- <150ms latency per frame
-- Streaming video feed
-- Immediate prediction display
+### Intelligent Processing
+- MobileNetV2 performs deep learning-based gesture classification
+- MediaPipe performs real-time hand detection
+- Trained model identifies gestures from 26 alphabet classes
 
-### 4. Optimization
-**Efficient Implementation**:
-- MobileNetV2 for model efficiency
-- GPU acceleration with TensorFlow
-- Memory growth management
-- Intelligent prediction filtering
-- Caching of loaded models
-- Batch processing
+### Intelligent Decision-Making
+- Uses detected hand count to filter possible predictions
+- Single-hand and dual-hand gestures are processed accordingly
+- Prediction stabilization using multiple frames reduces unstable predictions
 
----
+### Real-Time Operation
+- Webcam frames are processed continuously
+- Hand detection and model inference are performed in real time
+- Predictions are displayed immediately through Streamlit
+
+### Optimization
+- Lightweight MobileNetV2 enables efficient inference
+- GPU acceleration can improve training and processing
+- Hand-count filtering reduces unnecessary prediction possibilities
 
 ## 📊 Dataset Structure
 
