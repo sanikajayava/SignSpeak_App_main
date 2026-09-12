@@ -1,5 +1,5 @@
 """
-ESI PROJECT: Real-Time Sign Language Recognition System
+EIS PROJECT: Real-Time Sign Language Recognition System
 TASK 1 & 2: Model Training with GPU Support
 
 Embedded System Input: Camera feed captured for training
