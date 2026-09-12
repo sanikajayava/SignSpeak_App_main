@@ -1,5 +1,5 @@
 """
-ESI PROJECT: Efficiency Visualization Generator
+EIS PROJECT: Efficiency Visualization Generator
 Creates comprehensive visualizations for efficiency metrics
 """
 
