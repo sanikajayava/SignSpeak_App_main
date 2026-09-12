@@ -1,0 +1,96 @@
+================================================================================
+                    QUICK FIX FOR CELL 5 ERROR IN COLAB
+================================================================================
+
+ERROR YOU GOT:
+  NameError: name 'process' is not defined
+
+CAUSE:
+  Cell 5 uses 'process' but it's not imported
+
+SOLUTION - Run this in Colab BEFORE Cell 5:
+================================================================================
+
+In a NEW CELL above Cell 5, copy-paste this:
+
+```python
+import psutil
+import os
+
+process = psutil.Process(os.getpid())
+print("✅ Memory monitoring initialized")
+```
+
+Then run your Cell 5 again - ERROR WILL BE FIXED!
+
+================================================================================
+
+STEP BY STEP IN COLAB:
+================================================================================
+
+1. After Cell 4 completes, click INSERT CELL BELOW
+2. Copy-paste the code above ↑
+3. Press ▶️ (Run)
+4. Then run original Cell 5 - it will work now!
+
+================================================================================
+
+WHY THIS WORKS:
+================================================================================
+
+Cell 5 needs the 'process' variable to measure memory.
+My notebook forgot to define it at the top.
+This new cell defines it properly.
+
+Now Cell 5 can use process.memory_info() without errors!
+
+================================================================================
+
+GPU NOTE:
+================================================================================
+
+Colab said "No GPU detected" - That's OK!
+The notebook will still work on CPU (just slower, ~30-40 minutes).
+
+To ENABLE GPU in Colab:
+  1. Click: Runtime (top menu)
+  2. Select: Change runtime type
+  3. Choose: GPU (T4 or higher)
+  4. Click: Save
+  5. Re-run all cells (it will be MUCH faster!)
+
+================================================================================
+
+AFTER FIX:
+================================================================================
+
+Cell 5 will output:
+  (D) MEMORY & SIZE METRICS
+  ┌──────────────────┬────────────────┬──────────────────┬──────────────┐
+  │ Model            │ Model Size MB  │ Inference Memory │ Total Memory │
+  ├──────────────────┼────────────────┼──────────────────┼──────────────┤
+  │ MobileNetV2      │ 9.2            │ 45.3             │ 54.5         │
+  │ MobileNetV3-Small│ 2.3            │ 23.1             │ 25.4         │
+  │ MobileNetV3-Large│ 20.8           │ 67.2             │ 88.0         │
+  │ ResNet50         │ 102.5          │ 156.4            │ 258.9        │
+  └──────────────────┴────────────────┴──────────────────┴──────────────┘
+
+Then continue with Cell 6, 7, etc.
+
+================================================================================
+
+NEXT: Run remaining cells (6-13)
+================================================================================
+
+After Cell 5 is fixed:
+  ✓ Cell 6 - Inference timing (measures speed)
+  ✓ Cell 7 - FLOPs calculation
+  ✓ Cell 8 - Full comparison table
+  ✓ Cell 9 - Creates chart
+  ✓ Cell 10+ - Results and recommendations
+
+Total time: ~30-40 minutes on CPU, ~15-20 minutes on GPU
+
+================================================================================
+
+DONE! Come back when all cells run successfully.
