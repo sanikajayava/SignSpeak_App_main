@@ -1,4 +1,4 @@
-# 🎯 START HERE: ESI Project Guide
+# 🎯 START HERE: EIS Project Guide
 
 ## Advanced Real-Time Indian Sign Language Recognition System
 
@@ -6,7 +6,7 @@
 
 ## ⚡ 30-SECOND OVERVIEW
 
-This project implements an **Embedded System with Intelligence (ESI)** for real-time sign language recognition using:
+This project implements an **Embedded Intelligent System** for real-time sign language recognition using:
 
 - **Deep Learning**: MobileNetV2 (lightweight, efficient)
 - **Hand Detection**: MediaPipe (detects 0, 1, or 2 hands)
@@ -275,31 +275,36 @@ Once you run `streamlit run app.py`:
 
 ---
 
-## 🎓 LEARNING THE ESI CONCEPTS
+## 🎓 LEARNING THE EIS CONCEPTS
 
-This project demonstrates all **Embedded System Intelligence** principles:
+This project demonstrates the key principles of an **Embedded Intelligence System (EIS)**:
 
-### Embedded (E)
-- Webcam as embedded input device
-- Real-time continuous data stream
+### Embedded Input
+- Webcam acts as the input device
+- Captures continuous real-time visual data
+- Provides input for gesture recognition
 
-### System (S)
-- Deep learning model
-- Hand detection algorithm
-- Smart filtering logic
+### Intelligent Processing
+- MobileNetV2 performs deep learning-based gesture classification
+- MediaPipe performs real-time hand detection
+- Trained model identifies gestures from 26 alphabet classes
 
-### Intelligence (I)
-- Decision-making based on detected hand count
-- Real-time processing at camera frame rate
+### Intelligent Decision-Making
+- Uses detected hand count to filter possible predictions
+- Single-hand and dual-hand gestures are processed accordingly
+- Prediction stabilization using multiple frames reduces unstable predictions
+
+### Real-Time Operation
+- Webcam frames are processed continuously
+- Hand detection and model inference are performed in real time
+- Predictions are displayed immediately through Streamlit
 
 ### Optimization
-- Efficient model (MobileNetV2)
-- GPU acceleration
-- Intelligent filtering
+- Lightweight MobileNetV2 enables efficient inference
+- GPU acceleration can improve training and processing
+- Hand-count filtering reduces unnecessary prediction possibilities
 
-See PROJECT_SUMMARY.md for detailed ESI explanation.
-
----
+See PROJECT_SUMMARY.md for detailed EIS explanation.
 
 ## 🛠️ CUSTOMIZATION EXAMPLES
 
@@ -425,7 +430,7 @@ Everything is ready. Follow these steps:
 
 ---
 
-**🎯 Your ESI Project is Complete and Ready! 🚀**
+**🎯 Your EIS Project is Complete and Ready! 🚀**
 
 ---
 
