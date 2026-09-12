@@ -1,5 +1,5 @@
 """
-Setup script for ESI Project: Real-Time Sign Language Recognition System
+Setup script for EIS Project: Real-Time Sign Language Recognition System
 """
 
 import os
