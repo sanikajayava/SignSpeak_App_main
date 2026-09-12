@@ -1,7 +1,7 @@
 # 📊 MULTI-MODEL COMPARISON ANALYSIS REPORT
 ## Real-Time Sign Language Recognition System
 
-**Project:** ESI (Embedded System Intelligence)  
+**Project:** EIS (Embedded Intelligence System)  
 **Date:** April 13, 2026  
 **Models Compared:** 4 architectures (MobileNetV2, MobileNetV3-Small, MobileNetV3-Large, ResNet50)
 
