@@ -136,4 +136,3 @@ All optimizations are applied. Your training is configured for fast CPU executio
 
 Run: `python train.py`
 
-Good luck! 🎯
