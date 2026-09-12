@@ -1,5 +1,5 @@
 # 📚 PROJECT INDEX
-## ESI Project: Advanced Real-Time Sign Language Recognition System
+## EIS Project: Advanced Real-Time Sign Language Recognition System
 
 ---
 
@@ -430,8 +430,3 @@ All files are complete, well-documented, and ready to use.
 
 ---
 
-**Navigation Tip**: Use your IDE's file explorer or terminal to navigate between files. Most editors allow quick jumping between files with Ctrl+P.
-
-For any questions, refer to the appropriate documentation file or check the code comments for implementation details.
-
-✅ **Project Complete - Ready for Submission!**
