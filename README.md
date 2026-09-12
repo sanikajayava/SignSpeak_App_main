@@ -1,8 +1,8 @@
-# ESI PROJECT: Advanced Real-Time Sign Language Recognition System
+# EIS PROJECT: Advanced Real-Time Sign Language Recognition System
 
 ## 📋 Project Overview
 
-This is a comprehensive **Embedded System with Intelligence (ESI)** project that recognizes Indian Sign Language (ISL) alphabets (A-Z) in real-time using:
+This is a comprehensive **Embedded Intelligence System (EIS)** project that recognizes Indian Sign Language (ISL) alphabets (A-Z) in real-time using:
 
 - **Deep Learning**: MobileNetV2 pre-trained model
 - **Hand Detection**: MediaPipe for robust hand keypoint detection
