@@ -1,5 +1,5 @@
 # ⚙️ CONFIGURATION GUIDE
-## ESI Project: Real-Time Sign Language Recognition System
+## EIS Project: Real-Time Sign Language Recognition System
 
 This guide explains all configurable parameters in the system.
 
