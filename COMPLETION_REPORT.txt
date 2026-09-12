@@ -1,5 +1,5 @@
 ═══════════════════════════════════════════════════════════════════════════════
-                      ESI PROJECT: COMPLETION REPORT
+                      EIS PROJECT: COMPLETION REPORT
                 Advanced Real-Time Sign Language Recognition System
 ═══════════════════════════════════════════════════════════════════════════════
 
