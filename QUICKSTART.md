@@ -1,6 +1,6 @@
 # 🚀 QUICK START GUIDE
 
-## ESI Project: Real-Time Sign Language Recognition System
+## EIS Project: Real-Time Sign Language Recognition System
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -185,4 +185,4 @@ pip install -r requirements.txt
 
 **Status**: Ready to Deploy ✅
 
-Enjoy your ESI Project! 🤟
+
