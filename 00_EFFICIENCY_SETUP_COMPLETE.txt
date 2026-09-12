@@ -10,7 +10,7 @@
 
 ## 🌟 Overview
 
-The **Efficiency Analysis Module** has been successfully integrated into the Real-Time Sign Language Recognition System to evaluate its performance from an **Embedded System Intelligence (ESI)** perspective.
+The **Efficiency Analysis Module** has been successfully integrated into the Real-Time Sign Language Recognition System to evaluate its performance from an **Embedded Intelligent System(EIS)** perspective.
 
 The analysis focuses on measuring the computational and resource requirements of the system and identifying possible optimization strategies for efficient deployment on **embedded, mobile, and resource-constrained devices**.
 
