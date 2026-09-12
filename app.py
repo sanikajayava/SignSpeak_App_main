@@ -1,5 +1,5 @@
 """
-ESI PROJECT: Real-Time Sign Language Recognition System
+EIS PROJECT: Real-Time Sign Language Recognition System
 TASK 3-8: Real-Time Prediction with Hand Detection & Streamlit UI
 
 Embedded System Input: Webcam (embedded input device)
