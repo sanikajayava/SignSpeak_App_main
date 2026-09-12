@@ -1,6 +1,6 @@
 # 📈 SYSTEM ARCHITECTURE & FLOW DIAGRAMS
 
-## ESI Project: Real-Time Sign Language Recognition System
+## EIS Project: Real-Time Sign Language Recognition System
 
 ---
 
@@ -422,7 +422,7 @@ TOTAL PER FRAME        133-174ms      ~6-8 FPS effective
 
 ---
 
-## 🎓 ESI SYSTEM CHARACTERISTICS
+## 🎓 EIS SYSTEM CHARACTERISTICS
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -484,4 +484,4 @@ Accuracy improvements:
 
 ---
 
-**All diagrams represent the complete ESI system architecture for real-time sign language recognition!**
+**All diagrams represent the complete EIS system architecture for real-time sign language recognition!**
