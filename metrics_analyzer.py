@@ -1,5 +1,5 @@
 """
-ESI PROJECT: Efficiency Metrics Analyzer
+EIS PROJECT: Efficiency Metrics Analyzer
 Measures and analyzes all efficiency parameters for the sign language recognition system
 
 Metrics measured:
