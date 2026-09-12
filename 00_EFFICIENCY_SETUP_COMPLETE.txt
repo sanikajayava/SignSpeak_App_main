@@ -1,92 +1,118 @@
-# ESI Project – Efficiency Metrics Setup Complete
+================================================================================
+            EIS PROJECT: EFFICIENCY METRICS SYSTEM - SETUP COMPLETE ✅
+================================================================================
 
-## Real-Time Sign Language Recognition System
+**Status:** ✅ Completed
 
-**Status:** Completed  
 **Purpose:** Measure, analyze, and document the efficiency of the real-time sign language recognition system for embedded and resource-constrained environments.
+
+---
+
+## 🌟 Overview
+
+The **Efficiency Analysis Module** has been successfully integrated into the Real-Time Sign Language Recognition System to evaluate its performance from an **Embedded System Intelligence (ESI)** perspective.
+
+The analysis focuses on measuring the computational and resource requirements of the system and identifying possible optimization strategies for efficient deployment on **embedded, mobile, and resource-constrained devices**.
 
 ---
 
 ## 📊 What Was Completed
 
-The efficiency analysis module was successfully integrated into the project to evaluate the system from an Embedded System Intelligence (ESI) perspective.
-
-The following areas were measured and documented:
-
-1. Model Parameters
-2. Inference Latency
-3. Memory Usage
-4. Model Size
-5. Computational Complexity
-6. Optimization Impact
+| # | Efficiency Parameter | Status |
+|---|----------------------|--------|
+| 1 | 🧠 Model Parameters | ✅ Completed |
+| 2 | ⏱️ Inference Latency | ✅ Completed |
+| 3 | 💾 Memory Usage | ✅ Completed |
+| 4 | 📦 Model Size | ✅ Completed |
+| 5 | ⚙️ Computational Complexity | ✅ Completed |
+| 6 | 🚀 Optimization Impact | ✅ Completed |
 
 ---
 
 ## 🎯 Efficiency Parameters Measured
 
-### 1. Model Parameters
+### 1. 🧠 Model Parameters
 
-- Total Parameters: **2.43 Million**
-- Trainable Parameters: **2,425,306**
-- Non-trainable Parameters: **0**
+| Parameter | Value |
+|-----------|-------|
+| Total Parameters | **2.43 Million** |
+| Trainable Parameters | **2,425,306** |
+| Non-trainable Parameters | **0** |
 
-### 2. Inference Latency
+### 2. ⏱️ Inference Latency
 
-- Average Inference Time: **184.71 ms**
-- Minimum Inference Time: **53.19 ms**
-- Maximum Inference Time: **1284.70 ms**
-- Median Inference Time: **188.76 ms**
-- FPS: **3.29**
+| Metric | Value |
+|--------|-------|
+| Average Inference Time | **184.71 ms** |
+| Minimum Inference Time | **53.19 ms** |
+| Maximum Inference Time | **1284.70 ms** |
+| Median Inference Time | **188.76 ms** |
+| FPS | **3.29** |
 
-### 3. Memory Usage
+### 3. 💾 Memory Usage
 
-- Memory Used During Inference: **30.89 MB**
-- Total Memory Observed: **426.77 MB**
+| Memory Metric | Value |
+|---------------|-------|
+| Memory Used During Inference | **30.89 MB** |
+| Total Memory Observed | **426.77 MB** |
 
-### 4. Model Size
+### 4. 📦 Model Size
 
-- Original Model Size: **10.85 MB**
-- Quantized Model Size: **2.71 MB**
-- Approximate Size Reduction: **75%**
+| Model Version | Size |
+|---------------|------|
+| Original Model | **10.85 MB** |
+| Quantized Model | **2.71 MB** |
+| Approximate Size Reduction | **75%** |
 
-### 5. Computational Complexity
+### 5. ⚙️ Computational Complexity
 
-- FLOPs: **~300 Million**
-- Computational Complexity: **~0.3 GFLOPs**
+| Metric | Value |
+|--------|-------|
+| FLOPs | **~300 Million** |
+| Computational Complexity | **~0.3 GFLOPs** |
 
-### 6. Optimization Analysis
+---
 
-The following optimization techniques were evaluated:
+## 🚀 Optimization Analysis
 
-- **INT8 Quantization**
-  - Reduces model storage requirements.
-  - Makes the model more suitable for resource-constrained devices.
+The following optimization techniques were evaluated as part of the EIS analysis.
 
-- **Pruning**
-  - Removes less important model parameters.
-  - Reduces computational and memory requirements.
+### 🔹 INT8 Quantization
 
-- **Weight Sharing**
-  - Reduces the number of unique weights.
-  - Helps decrease model storage requirements.
+- Reduces model storage requirements.
+- Converts model weights to a lower-precision representation.
+- Makes the model more suitable for resource-constrained devices.
+- Achieves approximately **75% model-size reduction**.
+
+### 🔹 Pruning
+
+- Removes less important model parameters.
+- Reduces computational and memory requirements.
+- Can improve efficiency while maintaining acceptable model performance.
+
+### 🔹 Weight Sharing
+
+- Reduces the number of unique weights.
+- Helps decrease model storage requirements.
+- Can improve memory efficiency.
 
 ---
 
 ## 📈 Key Results
 
-| Metric | Result |
-| ------ | ------ |
-| Model Parameters | 2.43 M |
-| Validation Accuracy | 90% |
-| Training Accuracy | 94–95% |
-| Average Inference Time | 184.71 ms |
-| Median Inference Time | 188.76 ms |
-| FPS | 3.29 |
-| Original Model Size | 10.85 MB |
-| Quantized Model Size | 2.71 MB |
-| FLOPs | ~300 M |
-| Inference Memory | 30.89 MB |
-| Total Memory Observed | 426.77 MB |
+| 📌 Metric | 📊 Result |
+|-----------|-----------|
+| Model Parameters | **2.43 M** |
+| Validation Accuracy | **90%** |
+| Training Accuracy | **94–95%** |
+| Average Inference Time | **184.71 ms** |
+| Median Inference Time | **188.76 ms** |
+| FPS | **3.29** |
+| Original Model Size | **10.85 MB** |
+| Quantized Model Size | **2.71 MB** |
+| FLOPs | **~300 M** |
+| Inference Memory | **30.89 MB** |
+| Total Memory Observed | **426.77 MB** |
 
 ---
 
