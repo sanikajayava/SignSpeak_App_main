@@ -241,28 +241,32 @@ else:  # num_hands == 0 or other
 - Tracking frames: ~5-10 frames
 - Supports up to 2 hands simultaneously
 
-## 🎓 ESI Concepts Implementation
+## 🎓 Embedded Intelligence System (EIS) Concepts Implementation
 
-### **Embedded System Input (E)**
-- Webcam as embedded input device
-- Real-time continuous data streaming
-- Frame-by-frame processing
+### **E – Embedded**
 
-### **Intelligent System (S)**
-- Deep learning model (MobileNetV2)
-- Hand detection algorithms (MediaPipe)
-- Smart prediction filtering based on domain logic
+- Webcam used as an input device
+- Real-time continuous video capture
+- Frame-by-frame data acquisition
 
-### **Real-time Processing (I)**
-- Processing at camera frame rate (30 FPS)
-- Optimized inference using MobileNetV2
-- Prediction stabilization for smooth output
+### **I – Intelligence**
+
+- Deep learning model (MobileNetV2) for gesture recognition
+- Hand landmark detection using MediaPipe
+- Intelligent prediction filtering and stabilization
+
+### **S – System**
+
+- Real-time Indian Sign Language recognition system
+- Continuous processing and translation pipeline
+- Smooth and stable output generation
 
 ### **Optimization**
-- Model optimization: MobileNetV2 for efficiency
-- Memory management: TensorFlow GPU memory growth
-- Caching: Loaded model and detector reused
-- Algorithm optimization: Intelligent filtering before prediction
+
+- Lightweight MobileNetV2 for efficient inference
+- TensorFlow memory optimization
+- Reuse of loaded model and detector
+- Prediction filtering to improve accuracy
 
 ## 📝 License
 
